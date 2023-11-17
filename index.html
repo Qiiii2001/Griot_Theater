@@ -52,11 +52,14 @@
     </nav>
 
     <!-- background -->
-    <section class="bg-dark text-light  p-lg-0 pt-lg-10 p-md-10 text-center text-sm-stary shadow p-3 mb-5 bg-body">
+    <section class="bg-dark text-light  p-lg-0 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 mb-5 bg-body">
+        <!-- justify-content: define how the content is distributed across the main axis(row:default)
+             align-items: to distribute space or itmes along the cross axis -->
         <div class="container-fluid bg-dark justify-content-center align-items-center">
             <div class="col-lg col-md col-sm">
                 <div class="d-flex bg-dark align-items-center justify-content-evenly">
                     <img src="assets/theater-image-background.png" class="img-fluid" alt="...">
+                    <!-- center the elements with the transform utility class .translate-middle. -->
                     <div class="position-absolute top-50 start-50 translate-middle w-100">
                         <h1 class="text-light display-1">Featured <span class="space"></span>Shows</h1>
                     </div>
@@ -74,6 +77,7 @@
             </div>
         </div>
         <!-- Shows Cards -->
+        <!-- 3 columns per row when medium or larger -->
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center" id="card">
             <!-- Single Show Card -->
             <div class="col">
