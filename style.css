@@ -1,0 +1,41 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+    margin-right: 55%; /* Adjust the value as needed */
+}
+
+.space{
+    margin: 8px;
+}
+h2{
+    border: 1px solid goldenrod;
+    background-color: antiquewhite;
+}
+.card {
+        border-bottom: 1px solid grey;
+        box-shadow: 0 4px 8px rgba(0,0,0,.05);
+    }
+#card{
+    margin: 10px;
+}
+
+.card img {
+        height: 270px; /* Adjust as needed */
+        object-fit: cover; /* Adjust as needed */
+    }
+
+.card-footer {
+        background-color: #fff;
+        margin-left: 80px;
+    }
+
+.card-title {
+        font-size: 1.25rem; /* Adjust as needed */
+    }
+
+h2 {
+        font-weight: 700; /* Adjust as needed */
+        color: #333; /* Adjust as needed */
+    }
+
